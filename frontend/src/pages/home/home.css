@@ -1,0 +1,32 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .file-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.home .file-input-container .img-container {
+    width: 400px;
+    height: 400px;
+    background: #afafaf;
+    border-radius: 0.4em;
+    overflow: hidden;
+}
+
+.home .file-input-container .img-container img {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}

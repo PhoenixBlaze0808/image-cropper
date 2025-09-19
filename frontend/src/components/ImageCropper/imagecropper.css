@@ -1,0 +1,42 @@
+.image-cropper {
+    position: fixed;
+    width: 500px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background: #d3d3d3;
+    border-radius: 0.4em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    overflow: hidden;
+}
+
+.image-cropper .image-cropper-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.2em;
+}
+
+.image-cropper .crop-btn {
+    min-width: 100px;
+    padding: 0.5em 1em;
+    background: #caffb286;
+    border: 1px solid #1c3311;
+    border-radius: 0.25em;
+    outline: none;
+    color: #1c3311;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.1s all ease-in-out;
+    cursor: pointer;
+}
+
+.image-cropper .crop-btn:hover {
+    background: #caffb2;
+}
